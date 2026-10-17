@@ -1,0 +1,18 @@
+.about-us {
+  max-width: 560px;
+  padding: 24px 28px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.about-us h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.about-us p {
+  line-height: 1.6;
+  margin: 0 0 12px;
+}

@@ -1,0 +1,51 @@
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/images/background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.landing-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 32px;
+}
+
+.landing-intro {
+  max-width: 420px;
+  text-align: center;
+}
+
+.landing-intro h1 {
+  font-size: 3rem;
+  margin: 0 0 12px;
+}
+
+.landing-intro p {
+  font-size: 1.15rem;
+  margin: 0 0 24px;
+}
+
+.get-started-button {
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.get-started-button:hover {
+  background-color: #388e3c;
+}
